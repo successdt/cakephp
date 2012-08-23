@@ -39,8 +39,7 @@ class AppController extends Controller {
             $this->layout='mobile';
             $this->viewPath=$this->viewPath.'\mobile';
         }else{
-            //$this->layout='blog_template';
-            $this->layout='reponsive';
+            $this->layout='blog_template';
         }
     }
 }

@@ -16,7 +16,7 @@ class BlogsController extends AppController
         'Javascript',
         "Paginator");
     var $components = array('Email');
-   //var $layout = "blog_template";
+    var $layout = "blog_template";
     var $_sessionUsername = "Username";
     var $paginate = array('limit' => 10, 'order' => array('Blog.created' => 'asc'));
     function index()

@@ -48,6 +48,7 @@ echo $this->Html->script('jquery.js');
                                     <?php echo $this->fetch('content') ?>
                                 </div>
                             </div>
+                            <div id="page-foot"></div>
                         </div>
                         <div id="sidebar"></div>
                     </div>
