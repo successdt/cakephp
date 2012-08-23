@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+.current {
+	width:30px;
+	display:none;
+}
+.current:hover {
+
+}
+.current:active {
+
+}
+.disable{
+	display:none;
+}
+.banner-bg{
+	background-color:#2686B9;
+	text-align:center;
+	
+}

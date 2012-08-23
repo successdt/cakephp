@@ -1,0 +1,13 @@
+$(document).ready(function(){
+   $('#slide-menu').hide();
+   $('#lightbox').hide();
+   $('#lightbox').css({'height':$(document).height()})
+   $('#Products').mouseover(function(){
+        $('#slide-menu').slideDown(800);
+        $('#lightbox').fadeIn(300);
+    });
+   $('#lightbox').mouseover(function(){
+        $('#slide-menu').slideUp(300);
+        $('#lightbox').fadeOut(300);
+   }) 
+});
